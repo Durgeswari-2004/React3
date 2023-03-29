@@ -1,0 +1,41 @@
+.div-main
+{
+    background-image: linear-gradient(rgba(253, 243, 243, 0.424),rgba(0, 0, 0, 0.451)),url(../images/back.jpeg);
+    background-position: center;
+    background-size: cover ;
+    min-height :100vh;
+    width :100%;
+}
+.div-main h1{
+    color: rgb(251, 195, 195);
+    margin-left: 12%;
+    font-size: 3em;
+    font-weight: 900;
+    padding-top: 170px;
+}
+.div-main h2{
+    color: rgb(251, 195, 195);
+    margin-left: 20%;
+    font-size: 3em;
+    font-weight: 900;
+}
+.div-main p{
+    color: rgb(237, 179, 179);
+    margin-left: 30%;
+    font-size: 1.7em;
+}
+.div-main a{
+    text-decoration: none;
+    border: 2px solid rgb(208, 151, 151);
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 0px;
+    color: rgb(246, 244, 244);
+    margin-left: 45%;
+    font-size: 1em;
+}
+.div-main a:hover{
+    color: rgb(16, 15, 15);
+    background: rgb(247, 196, 196);
+    transition: 0.5s;
+}
